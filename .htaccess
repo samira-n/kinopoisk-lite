@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# Перенаправление всех запросов на index.php
+RewriteRule ^(.*)$ index.php?path=$1 [L,QSA]
+# Установить "DirectoryIndex" для использования index.php по умолчанию
+DirectoryIndex index.php

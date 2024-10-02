@@ -1,0 +1,19 @@
+{
+    "name": "snabi/kinopoisk-lite",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "samira-n",
+            "email": "s.nabievaaa@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^6.0",
+        "laravel/pint": "^1.5"
+    }
+}
